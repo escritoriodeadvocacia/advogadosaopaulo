@@ -1,0 +1,460 @@
+ <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advogado em São Paulo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- Navbar Responsiva -->
+<header class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <!-- Logo -->
+      <h1 class="text-2xl font-bold text-blue-600">Advogado em São Paulo</h1>
+  
+      <!-- Menu Desktop -->
+      <nav class="hidden md:flex space-x-6">
+        <a href="#sobre" class="text-gray-600 hover:text-blue-600">Sobre</a>
+        <a href="#contato" class="text-gray-600 hover:text-blue-600">Contato</a>
+      </nav>
+  
+      <!-- Ícone Mobile -->
+      <div class="md:hidden">
+        <button id="menu-toggle" class="text-gray-600 hover:text-blue-600 focus:outline-none">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  
+    <!-- Menu Mobile -->
+    <div id="mobile-menu" class="md:hidden hidden px-6 pb-4">
+      <a href="#sobre" class="block py-2 text-gray-600 hover:text-blue-600">Sobre</a>
+      <a href="#contato" class="block py-2 text-gray-600 hover:text-blue-600">Contato</a>
+    </div>
+  </header>
+  
+
+  <!-- Seção Hero -->
+  <section class="min-h-screen flex items-center justify-center px-6 bg-gray-100">
+    <div class="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center py-20">
+      
+      <!-- Texto -->
+      <div>
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          Defesa Jurídica Especializada em São Paulo
+        </h2>
+        <p class="text-lg text-gray-700 mb-8">
+          Atendimento ágil, personalizado e com total comprometimento. Atuação em processos administrativos, recursos de penalidades e orientações jurídicas para pessoas físicas e empresas.
+        </p>
+        <a href="#contato" class="inline-block px-6 py-3 bg-blue-600 text-white rounded-2xl shadow hover:bg-blue-700 transition duration-300">
+          Consultar um Advogado
+        </a>
+      </div>
+
+      <!-- Imagem -->
+      <div class="flex justify-center">
+        <img src="https://api.blue.cc/uploads/cm8mz1sm7000v2lrv9i03ci6r/advocacia-na-cidade-de-sao-paulo-sp.jpg" alt="Advogado em São Paulo" class="rounded-2xl shadow-lg">
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+<!-- Seção Sobre (sem imagem) -->
+<section id="sobre" class="bg-white py-20 px-6">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+        Compromisso com a Justiça e com Você
+      </h2>
+      <p class="text-lg text-gray-700 mb-6">
+        Com atuação estratégica em São Paulo e região metropolitana, oferecemos soluções jurídicas personalizadas com ética, agilidade e transparência. Nosso foco é proteger seus direitos e oferecer o suporte necessário em momentos decisivos.
+      </p>
+      <p class="text-lg text-gray-700">
+        Atuamos em processos administrativos, recursos, consultoria jurídica e defesa em autuações, sempre com foco em resultados e atendimento humanizado. Conte com uma abordagem clara, acessível e focada em resultados reais.
+      </p>
+    </div>
+  </section>
+  
+
+<!-- Call to Action -->
+<section class="bg-blue-600 py-16 px-6">
+    <div class="max-w-4xl mx-auto text-center text-white">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">
+        Precisa de orientação jurídica confiável?
+      </h2>
+      <p class="text-lg md:text-xl mb-8">
+        Conte com a experiência e dedicação de um advogado comprometido com seus direitos. Atendimento em toda a cidade de São Paulo e região.
+      </p>
+      <a href="#contato" class="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-2xl shadow hover:bg-gray-100 transition duration-300">
+        Agendar Consulta
+      </a>
+    </div>
+  </section>
+  
+
+
+
+
+
+<!-- Seção Elegante com Fundo de Imagem -->
+<section id="diferenciais" class="py-20 px-6" style="background-image: url('https://via.placeholder.com/1600x900?text=Fundo+de+Imagem'); background-size: cover; background-position: center;">
+    <div class="max-w-7xl mx-auto text-center text-white bg-black bg-opacity-50 p-10 rounded-xl">
+      
+      <!-- Título -->
+      <h2 class="text-4xl font-extrabold leading-tight mb-6">
+        Soluções Jurídicas Personalizadas para Você
+      </h2>
+  
+      <!-- Parágrafo -->
+      <p class="text-lg md:text-xl opacity-90 mb-8">
+        Nossa missão é proporcionar um serviço jurídico diferenciado, com foco na confiança e na proteção dos seus direitos. Estamos aqui para orientá-lo em todas as etapas de sua jornada legal, oferecendo um atendimento personalizado e humanizado.
+      </p>
+  
+      <!-- Seção de Serviços -->
+      <div class="grid md:grid-cols-3 gap-12 mt-12">
+        
+        <!-- Serviço 1 -->
+        <div class="p-6 bg-white shadow-lg rounded-2xl hover:shadow-xl transition-shadow duration-300">
+          <h3 class="text-2xl font-semibold text-blue-600 mb-4">Consultoria Jurídica</h3>
+          <p class="text-lg text-gray-700">
+            Oferecemos consultoria especializada para empresas e pessoas físicas, com foco em resolver suas questões legais de forma eficaz e assertiva.
+          </p>
+        </div>
+  
+        <!-- Serviço 2 -->
+        <div class="p-6 bg-white shadow-lg rounded-2xl hover:shadow-xl transition-shadow duration-300">
+          <h3 class="text-2xl font-semibold text-blue-600 mb-4">Defesa e Representação Legal</h3>
+          <p class="text-lg text-gray-700">
+            Atuamos na defesa de seus direitos em processos administrativos e judiciais, com compromisso em proteger seus interesses da melhor forma possível.
+          </p>
+        </div>
+  
+        <!-- Serviço 3 -->
+        <div class="p-6 bg-white shadow-lg rounded-2xl hover:shadow-xl transition-shadow duration-300">
+          <h3 class="text-2xl font-semibold text-blue-600 mb-4">Regularização de Documentos</h3>
+          <p class="text-lg text-gray-700">
+            Realizamos a regularização de documentos e processos burocráticos com total agilidade, garantindo que você esteja em conformidade com as normas legais.
+          </p>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Seção Informativa Ampliada -->
+<section id="diferenciais" class="bg-gray-50 py-20 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-10">
+        Excelência Jurídica com Foco em Resultados
+      </h2>
+  
+      <div class="space-y-8 text-gray-700 text-lg leading-relaxed">
+        <p>
+          Com vasta experiência em processos administrativos e consultoria jurídica, nosso escritório atua com seriedade, comprometimento e foco em resultados concretos. Entendemos que cada cliente possui uma necessidade única — por isso, oferecemos um atendimento totalmente personalizado e orientado para a solução mais eficaz.
+        </p>
+  
+        <p>
+          Localizados em São Paulo, atendemos tanto pessoas físicas quanto empresas, em toda a capital e regiões próximas. Nosso objetivo é simplificar o acesso à Justiça, garantindo clareza nas orientações, transparência em cada etapa e total dedicação na defesa dos seus interesses.
+        </p>
+  
+        <p>
+          Entre os principais serviços prestados, destacamos a elaboração de recursos administrativos, orientação preventiva, regularização de documentos, representação junto a órgãos públicos e análise de processos. Todos os atendimentos são realizados com base nos mais altos padrões éticos e técnicos da advocacia.
+        </p>
+  
+        <p>
+          Valorizamos o relacionamento com nossos clientes. Mais do que oferecer soluções jurídicas, buscamos construir confiança e oferecer suporte em todas as fases do processo, desde a consulta inicial até o desfecho final.
+        </p>
+  
+        <p>
+          Caso você esteja enfrentando um problema jurídico ou precise de orientação, estamos prontos para ajudar. Nossa equipe está disponível para esclarecer dúvidas, apresentar caminhos legais viáveis e atuar com agilidade sempre que necessário.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Seção com Conteúdo + Imagem -->
+<section id="experiencia" class="bg-white py-20 px-6">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      
+      <!-- Texto -->
+      <div>
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+          Experiência, Estratégia e Comprometimento
+        </h2>
+        <p class="text-lg text-gray-700 mb-4">
+          Com sólida atuação em São Paulo, oferecemos um atendimento jurídico voltado à resolução prática de conflitos e à proteção dos direitos dos nossos clientes. Nossa missão é entregar um serviço eficiente, com linguagem clara, atuação estratégica e profundo conhecimento da legislação.
+        </p>
+        <p class="text-lg text-gray-700 mb-4">
+          Cada caso é analisado com atenção e cuidado, garantindo soluções personalizadas e suporte completo durante todo o processo. Prezamos pela transparência, pelo respeito e pelo compromisso com a ética profissional.
+        </p>
+        <p class="text-lg text-gray-700">
+          Atuamos com seriedade em processos administrativos, recursos legais, defesa de motoristas, regularização documental e consultoria jurídica. Seja qual for sua situação, estamos prontos para auxiliar com agilidade e responsabilidade.
+        </p>
+      </div>
+  
+      <!-- Imagem -->
+      <div class="flex justify-center">
+        <img src="https://api.blue.cc/uploads/cm8mz1sm5000u2lrvh8j5gqar/advocacia-previdenciaria-sao-paulo.jpg" alt="Advogado em São Paulo" class="rounded-2xl shadow-lg">
+      </div>
+  
+    </div>
+  </section>
+  
+
+<!-- Seção Sofisticada com Conteúdo + Imagem -->
+<section id="diferenciais" class="bg-gradient-to-r from-blue-600 to-indigo-700 py-20 px-6 text-white">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+  
+      <!-- Texto -->
+      <div class="space-y-6">
+        <h2 class="text-4xl font-bold leading-tight mb-6">
+          Sua Segurança Jurídica Começa Aqui
+        </h2>
+        <p class="text-lg md:text-xl opacity-80">
+          Com uma abordagem única e personalizada, nosso escritório oferece soluções jurídicas rápidas e eficazes, com foco na resolução de problemas e resultados concretos para cada cliente.
+        </p>
+        <p class="text-lg md:text-xl opacity-80">
+          Trabalhamos com ética e dedicação, oferecendo assessoria jurídica para processos administrativos, recursos e defesa, além de consultoria especializada para pessoas físicas e empresas. Garantimos acompanhamento contínuo, com a tranquilidade de ter um advogado experiente ao seu lado.
+        </p>
+        <p class="text-lg md:text-xl opacity-80">
+          Seja qual for sua necessidade, estamos preparados para oferecer um atendimento ágil, focado e estratégico, sempre em busca da melhor solução para o seu caso.
+        </p>
+        <a href="#contato" class="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-2xl shadow-lg hover:bg-gray-100 transition duration-300">
+          Entre em Contato
+        </a>
+      </div>
+  
+      <!-- Imagem -->
+      <div class="flex justify-center">
+        <img src="https://api.blue.cc/uploads/cm8mz1smk00102lrv8uplh759/advocacia-schettini-sao-paulo-venha-conhecer.jpg" alt="Advogado em São Paulo" class="rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-300">
+      </div>
+  
+    </div>
+  </section>
+  
+
+
+
+  <!-- Seção com Conteúdo Simples -->
+<section class="bg-gray-50 py-20 px-6">
+    <div class="max-w-7xl mx-auto text-center">
+  
+      <!-- Título -->
+      <h2 class="text-4xl font-extrabold text-gray-900 mb-6">
+        Proteja seus Direitos com um Advogado de Confiança
+      </h2>
+  
+      <!-- Parágrafo -->
+      <p class="text-lg md:text-xl text-gray-700 opacity-80 mb-8">
+        Nosso escritório está comprometido em fornecer serviços jurídicos especializados, com foco em resultados rápidos e eficazes para nossos clientes. Atuamos com ética, transparência e total dedicação para garantir que você tenha o melhor suporte legal em todas as situações.
+      </p>
+  
+      <!-- Parágrafo 2 -->
+      <p class="text-lg md:text-xl text-gray-700 opacity-80">
+        Se você está buscando uma solução eficaz para seus problemas legais, nossa equipe está preparada para oferecer consultoria personalizada, defesa jurídica e todo o acompanhamento necessário, com o objetivo de proteger seus interesses da melhor forma possível.
+      </p>
+    </div>
+  </section>
+  
+
+
+  <section class="bg-white py-20 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-gray-900 mb-6">
+        Compromisso com Resultados Reais
+      </h2>
+      <p class="text-lg md:text-xl text-gray-700 opacity-80">
+        Nossa atuação é pautada em estratégia, experiência e foco em resultados concretos. Trabalhamos com dedicação para garantir que cada cliente tenha o respaldo jurídico necessário para enfrentar desafios com segurança e tranquilidade.
+      </p>
+    </div>
+  </section>
+  
+<!-- Seção com Imagem Única -->
+<section class="bg-white py-20 px-6">
+    <div class="max-w-5xl mx-auto">
+      <img 
+        src="https://api.blue.cc/uploads/cm8mz20kn00142lrv8h308999/advocacia-previdenciaria-especialista-profissional.jpg" 
+        alt="Imagem do Escritório de Advocacia" 
+        class="w-full h-auto rounded-2xl shadow-lg object-cover"
+      >
+    </div>
+  </section>
+  
+
+
+  <section class="bg-white py-20 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-gray-900 mb-6">
+        Defesa Técnica e Estratégica
+      </h2>
+      <p class="text-lg md:text-xl text-gray-700 opacity-80">
+        Nossa atuação é guiada por uma análise precisa de cada caso, com estratégias jurídicas pensadas sob medida para alcançar os melhores resultados. Trabalhamos com agilidade, precisão e profundo conhecimento legal.
+      </p>
+    </div>
+  </section>
+
+  
+
+  <section class="bg-gray-50 py-20 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-gray-900 mb-6">
+        Suporte Jurídico em Todas as Etapas
+      </h2>
+      <p class="text-lg md:text-xl text-gray-700 opacity-80">
+        Do primeiro atendimento ao encerramento do processo, você conta com acompanhamento próximo e total disponibilidade para esclarecimentos. Estamos ao seu lado em cada passo da jornada jurídica.
+      </p>
+    </div>
+  </section>
+
+  
+  <section class="bg-gray-100 py-20 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-gray-900 mb-6">
+        Compromisso com a Justiça
+      </h2>
+      <p class="text-lg md:text-xl text-gray-700 opacity-80">
+        Atuamos com ética, responsabilidade e dedicação. Nosso foco é garantir que cada cliente seja ouvido, respeitado e tenha acesso a uma defesa sólida e justa diante dos seus direitos legais.
+      </p>
+    </div>
+  </section>
+  
+
+<!-- Seção de Perguntas Frequentes -->
+<section id="faq" class="bg-gray-50 py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl font-bold text-center text-gray-900 mb-12">
+        Perguntas Frequentes
+      </h2>
+  
+      <div class="space-y-8">
+  
+        <!-- FAQ 1 -->
+        <div>
+          <h3 class="text-xl font-semibold text-blue-600 mb-2">1. Como funciona o atendimento inicial?</h3>
+          <p class="text-gray-700 text-lg">
+            No primeiro contato, entendemos a sua situação e orientamos sobre os caminhos legais disponíveis. A consulta pode ser online ou presencial, de acordo com sua preferência e necessidade.
+          </p>
+        </div>
+  
+        <!-- FAQ 2 -->
+        <div>
+          <h3 class="text-xl font-semibold text-blue-600 mb-2">2. Preciso de advogado para todos os casos?</h3>
+          <p class="text-gray-700 text-lg">
+            Nem todos os casos exigem advogado, mas contar com apoio jurídico especializado aumenta consideravelmente as chances de sucesso e evita complicações legais futuras.
+          </p>
+        </div>
+  
+        <!-- FAQ 3 -->
+        <div>
+          <h3 class="text-xl font-semibold text-blue-600 mb-2">3. Quais documentos devo apresentar?</h3>
+          <p class="text-gray-700 text-lg">
+            Os documentos variam conforme o caso, mas geralmente são necessários RG, CPF, comprovantes e notificações. Durante o atendimento, orientamos exatamente o que você precisa reunir.
+          </p>
+        </div>
+  
+        <!-- FAQ 4 -->
+        <div>
+          <h3 class="text-xl font-semibold text-blue-600 mb-2">4. O atendimento pode ser online?</h3>
+          <p class="text-gray-700 text-lg">
+            Sim! Realizamos atendimentos por videochamada, telefone ou e-mail. É uma opção prática, segura e eficiente, especialmente para quem está fora da capital ou tem pouco tempo.
+          </p>
+        </div>
+  
+        <!-- FAQ 5 -->
+        <div>
+          <h3 class="text-xl font-semibold text-blue-600 mb-2">5. Qual o prazo para resolver meu caso?</h3>
+          <p class="text-gray-700 text-lg">
+            O tempo varia conforme a complexidade e o tipo do processo. Em muitos casos conseguimos soluções rápidas, mas prazos legais e burocracias influenciam diretamente.
+          </p>
+        </div>
+  
+        <!-- FAQ 6 -->
+        <div>
+          <h3 class="text-xl font-semibold text-blue-600 mb-2">6. Os honorários são fixos?</h3>
+          <p class="text-gray-700 text-lg">
+            Os honorários variam conforme o serviço prestado e a complexidade do caso. Sempre explicamos os valores de forma clara, com total transparência e possibilidade de parcelamento.
+          </p>
+        </div>
+  
+        <!-- FAQ 7 -->
+        <div>
+          <h3 class="text-xl font-semibold text-blue-600 mb-2">7. Atendem apenas São Paulo?</h3>
+          <p class="text-gray-700 text-lg">
+            Nosso foco é São Paulo e região metropolitana, mas também atendemos clientes de outras localidades de forma remota, oferecendo todo o suporte necessário online.
+          </p>
+        </div>
+  
+        <!-- FAQ 8 -->
+        <div>
+          <h3 class="text-xl font-semibold text-blue-600 mb-2">8. Posso agendar um horário pelo WhatsApp?</h3>
+          <p class="text-gray-700 text-lg">
+            Sim, o agendamento via WhatsApp é rápido e prático. Basta enviar sua mensagem e nossa equipe retornará com os horários disponíveis para atendimento jurídico.
+          </p>
+        </div>
+  
+        <!-- FAQ 9 -->
+        <div>
+          <h3 class="text-xl font-semibold text-blue-600 mb-2">9. Vocês trabalham com causas urgentes?</h3>
+          <p class="text-gray-700 text-lg">
+            Sim. Casos que exigem atuação imediata recebem prioridade. Estamos preparados para responder rapidamente e atuar com agilidade nos casos que demandam urgência jurídica.
+          </p>
+        </div>
+  
+        <!-- FAQ 10 -->
+        <div>
+          <h3 class="text-xl font-semibold text-blue-600 mb-2">10. Como saber se meu caso tem solução?</h3>
+          <p class="text-gray-700 text-lg">
+            Durante a consulta, analisamos todos os detalhes e documentos. A partir disso, identificamos as possibilidades reais e orientamos você com total clareza sobre os próximos passos.
+          </p>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+
+  <!-- Rodapé -->
+  <footer class="bg-white border-t mt-20">
+    <div class="max-w-7xl mx-auto px-6 py-8 text-center text-gray-500">
+      &copy; 2025 Advocacia SP. Todos os direitos reservados.
+    </div>
+  </footer>
+
+
+  <script>
+    // Toggle do menu mobile
+    const toggleBtn = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    toggleBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
+
+      
+
